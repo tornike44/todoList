@@ -14,6 +14,7 @@ api/*.so # Shared object file
 api/go.sum
 api/go.mod
 api/vendor/
+api/.env.local
 
 # IDEs and editors
 *.swp # Vim
