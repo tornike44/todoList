@@ -1,0 +1,38 @@
+# Common OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+Desktop.ini # Windows
+
+# Go specific (under the api/ folder)
+api/bin/ # Go compiled binary directory
+api/pkg/ # Go compiled package directory
+api/*.o # Compiled Object file
+api/*.a # Compiled Archive file
+api/*.so # Shared object file
+api/go.sum
+api/go.mod
+api/vendor/
+
+# IDEs and editors
+*.swp # Vim
+*.swo # Vim
+*.swn # Vim
+*.bak
+.idea/
+.vscode/
+
+# React and frontend-specific (under the frontend/ folder)
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+
+# SASS Cache (under the frontend/ folder)
+frontend/.sass-cache/
+
+# Mongo data directory (if you run Mongo locally)
+dbdata/
