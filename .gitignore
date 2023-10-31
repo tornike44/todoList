@@ -3,6 +3,8 @@
 Thumbs.db # Windows
 Desktop.ini # Windows
 
+.personalReadme.md
+
 # Go specific (under the api/ folder)
 api/bin/ # Go compiled binary directory
 api/pkg/ # Go compiled package directory
